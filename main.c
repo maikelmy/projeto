@@ -57,7 +57,7 @@ void print(PRODUTO x){
 
 int main()
 {
-    printf("Hello world!\n");
+   
     PRODUTO Produtos[100];
     scan(&Produtos[0]);
     print(Produtos[0]);
