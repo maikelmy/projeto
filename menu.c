@@ -31,7 +31,7 @@ int main(){
 		printf( "-----------------------------------------------\n" );
 		printf(" Escolha uma das seguintes opções:\n\n" );
 		printf("  1.Clientes\n");
-		printf("  2.Fornecedor\n");
+		printf("  2.Funcionário\n");
 		printf( "-----------------------------------------------\n" );
 		printf( "\t\t\t\tS - Sair\n" );
 		printf( "_______________________________________________\n" );
