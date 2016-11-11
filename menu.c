@@ -42,7 +42,7 @@ int main(){
 
     printf("\n1. Filtrar produtos por preço\n ");
     printf("\n2. Filtrar produtos por estoque \n ");
-    printf("\n3. Voltar ao Menu principal \n ");
+    printf("\n3. Carrinho de compras. \n ");
     printf("\n4. Voltar ao Menu principal \n ");
 
     scanf("%d",&cliente);
@@ -55,13 +55,13 @@ int main(){
    }
    else if (cliente == 3){
 
-    printf("\n3 Carrinho de compras \n ");
+    printf("\n3. Carrinho de compras \n ");
 
 
    }
    else if (cliente == 4){
 
-    printf("\n4 Voltar ao Menu principal \n ");
+    printf("\n4. Voltar ao Menu principal \n ");
 
 
    }
