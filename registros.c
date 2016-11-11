@@ -20,24 +20,24 @@ void scan(PRODUTO *x){
     printf("Digite a categoria: ");
     scanf("%s", (*x).categoria);
     printf("\nDigite o codigo: ");
-    scanf("%d", (*x).codigo);
+    scanf("%d", &(*x).codigo);
     printf("\nDigite o valor: ");
-    scanf("%f", (*x).valor);
+    scanf("%f", &(*x).valor);
     printf("\nDigite a descricao: ");
     scanf("%s", (*x).descricao);
     printf("\nDigite o fornecedor: ");
     scanf("%s", (*x).fornecedor);
     printf("\nDigite a validade: \n");
     printf("dia: ");
-    scanf("%d", (*x).validade[0]);
+    scanf("%d", &(*x).validade[0]);
     printf("\nmes: ");
-    scanf("%d", (*x).validade[1]);
+    scanf("%d", &(*x).validade[1]);
     printf("\nano: ");
-    scanf("%d", (*x).validade[2]);
+    scanf("%d", &(*x).validade[2]);
     printf("\nDigite o corredor: \n");
-    scanf("%d", (*x).corredor);
+    scanf("%d", &(*x).corredor);
     printf("\nDigite a prateleira: \n");
-    scanf("%d", (*x).prateleira);
+    scanf("%d", &(*x).prateleira);
 }
 
 void print(PRODUTO x){
